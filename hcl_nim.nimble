@@ -1,8 +1,10 @@
 version       = "0.1.0"
-author        = "Zenit Developers <zenitlinux8@gmail.com>"
+author        = "Zenit Linux <zenitlinux8@gmail.com>"
 description   = "HCL (HashiCorp Configuration Language) v1 and v2 parser for Nim"
 license       = "MIT"
 srcDir        = "src"
+bin           = @["hclnim"]
+installExt    = @["nim"]
 
 # Deps
 
